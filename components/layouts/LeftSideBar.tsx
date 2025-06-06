@@ -53,7 +53,7 @@ const LeftSideBar = () => {
   );
 
   const NavLinks = () => (
-    <nav className="flex flex-col gap-2">
+    <nav className="flex flex-col gap-2 bg-[#fff] ">
       <p className="text-gray-400 text-xs font-medium uppercase tracking-wider px-2">
        Menu
      </p> 

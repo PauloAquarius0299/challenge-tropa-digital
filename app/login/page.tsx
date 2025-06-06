@@ -16,7 +16,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="flex min-h-screen p-10">
+    <div className="flex min-h-screen p-10 bg-[#fff]">
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center px-4 py-16">
         <div className="w-full max-w-md">
           <div className="mb-6 flex justify-center md:justify-start">
