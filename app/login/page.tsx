@@ -23,13 +23,16 @@ const LoginPage = () => {
             <Image
               src="/logo.png"
               alt="Logo Tropa Digital"
-              width={200}
-              height={100}
+              width={250}
+              height={150}
+              priority
+              quality={100}
+              className="object-contain"
             />
           </div>
           <div className="mb-8 text-center md:text-left">
             <h1 className="text-[#cc6237] text-4xl font-bold">Bem-vindo de volta</h1>
-            <p className="text-[#4a6fa4] text-sm mt-1">
+            <p className="text-[#9ca9be] text-sm mt-1">
               Entre com sua conta para acessar o painel.
             </p>
           </div>

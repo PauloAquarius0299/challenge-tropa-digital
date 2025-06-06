@@ -127,14 +127,15 @@ const LeftSideBar = () => {
 
         <Link href="/" onClick={() => isMobile && setIsMobileOpen(false)}>
           <div className="flex justify-center mb-6">
-            <Image
+             <Image
               src="/logo.png"
-              alt="Logo"
+              alt="Logo Tropa Digital"
               width={200}
               height={100}
-              className="object-contain"
               priority
-            />
+              quality={100}
+              className="object-contain"
+              />
           </div>
         </Link>
 
