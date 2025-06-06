@@ -16,7 +16,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="flex min-h-screen p-14">
+    <div className="flex min-h-screen p-10">
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center px-4 py-16">
         <div className="w-full max-w-md">
           <div className="mb-6 flex justify-center md:justify-start">
@@ -79,16 +79,16 @@ const LoginPage = () => {
           </form>
         </div>
       </div>
-      <div className="bg-[#cc6237] rounded-[2rem] hidden md:flex md:w-1/2 items-end relative">
-  <div className="absolute -left-10 bottom-0 w-[500px] h-[600px] z-10 translate-y-20">
-    <Image
+      <div className="bg-[#cc6237] rounded-[3rem] hidden md:flex items-end relative w-[600px] h-[610px]">
+      <div className="absolute -left-12 bottom-0 w-[500px] h-[600px] z-10 translate-y-20">
+     <Image
       src="/hero.png"
       alt="Pessoa usando celular"
       fill
       className="object-contain"
-    />
-  </div>
-</div>
+      />
+     </div>
+    </div>
     </div>
   );
 };
