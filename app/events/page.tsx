@@ -1,8 +1,15 @@
 import React from 'react'
+import LeftSideBar from '../../components/layouts/LeftSideBar'
+import ContentHome from '@/components/ContentHome'
 
 const Events = () => {
   return (
-    <div>Events</div>
+    <div className="flex min-h-screen relative ">
+      <LeftSideBar />
+      <main className="p-5">
+        <ContentHome />
+      </main>
+    </div>
   )
 }
 
