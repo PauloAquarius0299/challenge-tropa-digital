@@ -6,7 +6,7 @@ const Events = () => {
   return (
     <div className="flex min-h-screen relative ">
       <LeftSideBar />
-      <main className="p-5 ">
+      <main className="flex-1 p-5 ">
         <ContentHome />
       </main>
     </div>
